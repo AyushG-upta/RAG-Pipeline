@@ -227,16 +227,18 @@ Run all cells sequentially.
 ## Example Query
 
 ```python
-query = "What is hardness in glass and how is it measured?" or "Describe about this Document-<document name>{uploaded in the dir}"
+query = "Thermal physical parameters of ((Ti40Zr40Ni20)72Be28)100-xAlx BMGs"
 ```
 
 The system retrieves relevant chunks from the vector database and generates an answer using the LLM.
+<img width="1172" height="781" alt="Screenshot 2026-05-20 122645" src="https://github.com/user-attachments/assets/262ed48d-9c76-49cd-9c7c-e3ad8243ddc7" />
 
 ---
+##Example Output
 
 ## Retrieval Strategy
 
-The retriever uses:
+The retriever uses: MMR(Maximal Marginal Relevance)
 
 ```python
 search_type = "mmr"
