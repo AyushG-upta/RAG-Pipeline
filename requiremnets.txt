@@ -1,0 +1,14 @@
+unstructured
+unstructured-ingest
+"unstructured[pdf]"
+poppler-utils 
+tesseract-ocr
+langchain-community
+langchain-classic
+sentence-transformers
+faiss-cpu  
+langchain 
+langchain-core 
+langchain-community 
+langchain-ollama
+langchain-huggingface
