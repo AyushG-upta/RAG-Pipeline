@@ -142,8 +142,8 @@ project/
 ### Clone Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/AyushG-upta/RAG-Pipeline.git
+cd RAG-Pipeline
 ```
 
 ---
@@ -172,7 +172,7 @@ source venv/bin/activate
 
 ### Install Dependencies
 
-```bash
+```bash {for windows: poppler-utils and tesseract-ocr should be downloaded and must be added to the PATH}
 pip install unstructured
 pip install unstructured-ingest
 pip install "unstructured[pdf]"
@@ -184,7 +184,6 @@ pip install sentence-transformers
 pip install faiss-cpu
 pip install langchain-ollama
 ```
-
 ---
 
 ## Ollama Setup
