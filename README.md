@@ -171,8 +171,8 @@ source venv/bin/activate
 ---
 
 ### Install Dependencies
-
-```bash {for windows: poppler-utils and tesseract-ocr should be downloaded and must be added to the PATH}
+In Windows: poppler-utils and tesseract-ocr should be downloaded and must be added to the PATH
+```bash 
 pip install unstructured
 pip install unstructured-ingest
 pip install "unstructured[pdf]"
